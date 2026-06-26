@@ -13,16 +13,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
     <style>
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 90px;
+        }
+
+        #about,
+        #gallery,
+        #contact {
+            scroll-margin-top: 90px;
+        }
+
         body {
             background-color: #eef4ff;
+            padding-top: 90px;
         }
 
         .navbar {
             background-color: #2563eb;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 9999;
         }
 
         .navbar-brand img {
-            width: 60px;
+            width: 120px;
             height: 60px;
             border-radius: 50%;
         }
@@ -33,7 +50,7 @@
         }
 
         .carousel-img {
-            height: 70vh;
+            height: 80vh;
             object-fit: cover;
         }
 
@@ -90,7 +107,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
         <div class="container">
 
             <a class="navbar-brand d-flex align-items-center gap-2" href="#">
@@ -318,7 +335,8 @@
 
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea id="message" class="form-control" rows="4" placeholder="Enter your message" title="Message"></textarea>
+                        <textarea id="message" class="form-control" rows="4" placeholder="Enter your message"
+                            title="Message"></textarea>
                     </div>
 
                     <div class="text-center">

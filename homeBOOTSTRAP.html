@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depaul English Medium High School</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            background-color: #eef4ff;
+        }
+
+        .navbar {
+            background-color: #2563eb;
+        }
+
+        .navbar-brand img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-size: 18px;
+        }
+
+        .carousel-img {
+            height: 70vh;
+            object-fit: cover;
+        }
+
+        .card {
+            transition: all 0.4s ease;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-12px) scale(1.03);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2) !important;
+        }
+
+        .card img {
+            transition: transform 0.5s ease;
+        }
+
+        .card-body {
+            transition: all 0.4s ease;
+        }
+
+        .card:hover .card-body {
+            background: #f8f9fa;
+        }
+
+        .gallery-img {
+            height: 500px;
+            object-fit: cover;
+        }
+
+        footer {
+            align-items: center;
+            background-color: #2563eb;
+            color: white;
+            height: 310px;
+        }
+
+        .logo {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .connect {
+            padding-top: 20px;
+            font-size: 20px;
+            gap: 30px;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow">
+        <div class="container">
+
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <img src="unnamed.png" alt="">
+                <span>Depaul English Medium High School</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="deapul.jpg" class="d-block w-100 carousel-img" alt="">
+            </div>
+
+            <div class="carousel-item">
+                <img src="deapul.jpg" class="d-block w-100 carousel-img" alt="">
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+    <div id="about" class="container py-5">
+
+        <div class="text-center mb-4">
+            <h2>ABOUT</h2>
+            <p class="text-muted">Depaul English Medium High School, Rahuri Factory</p>
+        </div>
+
+        <div class="card shadow border-0">
+            <div class="row g-0">
+
+                <div class="col-12 col-md-4">
+                    <img src="about.jpg" class="img-fluid h-100 w-100" alt="">
+                </div>
+
+                <div class="col-12 col-md-8">
+
+                    <div class="card-body">
+
+                        <h5>OUR SCHOOL</h5>
+                        <p>
+                            Each student who joins the De Paul School is accepted as a gift from God and is moulded
+                            accordingly. The school is co-educational and follows Maharashtra State Syllabus. The
+                            medium of instruction is English.
+                        </p>
+
+                        <h5>OUR HISTORY</h5>
+                        <p>
+                            The school was started in 1994 with a view to impart knowledge suited to the challenging
+                            needs of the time. It is owned by the Vincentian Mission Service Society, Ahmednagar.
+                        </p>
+
+                        <h5>OUR FACILITY</h5>
+                        <p>
+                            Our school provides modern classrooms, library, science and computer laboratories,
+                            smart learning facilities, sports areas and transportation services.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row g-4 justify-content-center mt-4">
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="card h-100 shadow">
+
+                    <img src="vision.png" class="card-img-top" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Vision</h5>
+
+                        <p class="card-text">
+                            To provide quality education to children and youth at the lowest possible cost that
+                            facilitates them to evolve as responsible human beings of character, competence,
+                            conscience, compassion and commitment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+
+                <div class="card h-100 shadow">
+
+                    <img src="mission.png" class="card-img-top" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Mission</h5>
+
+                        <p class="card-text">
+                            To transform lives and communities through learning and create a new generation
+                            with a difference for God and society.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="gallery" class="container py-5">
+
+        <div class="text-center mb-4">
+            <h2>GALLERY</h2>
+            <p class="text-muted">Depaul English Medium High School, Rahuri Factory</p>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-lg-8">
+
+                <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="deapul.jpg" class="d-block w-100 gallery-img rounded" alt="">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="1.jpg" class="d-block w-100 gallery-img rounded" alt="">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="2.jpg" class="d-block w-100 gallery-img rounded" alt="">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="3.jpg" class="d-block w-100 gallery-img rounded" alt="">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="4.jpg" class="d-block w-100 gallery-img rounded" alt="">
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="contact" class="container py-5">
+
+        <div class="text-center mb-4">
+            <h2>CONTACT US</h2>
+            <p class="text-muted">Get In Touch With Us</p>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-8 col-lg-6">
+
+                <div class="card shadow border-0 p-4">
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input id="name" type="text" class="form-control" placeholder="Enter your name" title="Name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control" placeholder="name@example.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-control" rows="4" placeholder="Enter your message" title="Message"></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-primary px-4">Submit</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer align="center">
+        DePaul English Medium High School, Rahuri Factory, Ahmednagar. &copy; 2024
+
+        <div class="connect">
+            <h4>Contact Us</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Rahuri Factory Tal.Rahuri, Dist.Ahilyanagar</p>
+            <p><i class="fa-solid fa-phone"></i>Ph:0242-6251024</p>
+            <p><i class="fa-solid fa-envelope"></i>depaulschoolrahurifactory@gmail.com</p>
+        </div>
+
+        <h4>Connect With Us</h4>
+        <div class="logo">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+    </footer>
+</body>
+
+</html>
